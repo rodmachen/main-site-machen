@@ -1,0 +1,104 @@
+@import "settings";
+@import "foundation";
+// @import url("//fonts.googleapis.com/css?family=EB+Garamond");
+
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+.responsive_headline {
+	// font-weight: bold;
+	// margin-bottom: -5px;
+	// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	// font-weight: bold;
+}
+
+header {
+	text-align: center;
+	
+	margin-bottom: 40px;
+}
+
+
+
+.columns {
+	// border: 1px solid black;
+	// margin-bottom: 33px;
+	margin: auto, 0px, 33px;
+}
+
+li {
+	// padding: 10px
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub_headline {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	// font-family: Georgia, serif;
+	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	// font-family: Arial, sans-serif;
+	// font-weight: bold;
+	// font-style: italic;
+}
+
+.logo {
+	font-size: 100px;
+	// font-family: Times, serif;
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+	margin-bottom: -30px;
+	// vertical-align: center;
+
+}
+
+.sub-head {
+	font-size: 25px;
+	// font-family: Georgia, serif;
+	// vertical-align: center;
+	// float: margin-left
+}
+
+.thumb {
+	// position: relative;
+	// clip: (300px,300px,300px,300px);
+}
