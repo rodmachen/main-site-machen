@@ -47,14 +47,23 @@
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-weight: bold;
+	// font-style: italic;
+
+}
+
+.sub_headline {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	// font-family: Georgia, serif;
+	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+	// font-family: Arial, sans-serif;
+	// font-weight: bold;
+	// font-style: italic;
 }
 
 header {
 	text-align: center;
 	margin-bottom: 40px;
 }
-
-
 
 .columns {
 	// border: 1px solid black;
@@ -72,14 +81,7 @@ img {
     margin-right: auto;
 }
 
-.sub_headline {
-	// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	// font-family: Georgia, serif;
-	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	// font-family: Arial, sans-serif;
-	// font-weight: bold;
-	// font-style: italic;
-}
+
 
 .logo {
 	font-size: 100px;
@@ -91,7 +93,7 @@ img {
 }
 
 .sub-head {
-	font-size: 25px;
+	font-size: 30px;
 	// font-family: Georgia, serif;
 	// vertical-align: center;
 	// float: margin-left
