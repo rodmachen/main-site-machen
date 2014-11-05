@@ -48,7 +48,6 @@
 	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-weight: bold;
 	// font-style: italic;
-
 }
 
 .sub_headline {
@@ -81,15 +80,12 @@ img {
     margin-right: auto;
 }
 
-
-
 .logo {
 	font-size: 90px;
 	// font-family: Times, serif;
 	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
 	margin-bottom: -30px;
 	// vertical-align: center;
-
 }
 
 .sub-head {
@@ -99,8 +95,12 @@ img {
 	// float: margin-left
 }
 
-.category-thumb {
+.category-thumb:hover {
+	opacity: .7;
+}
 
+.thumb:hover {
+	opacity: .7;
 }
 
 .thumb {
