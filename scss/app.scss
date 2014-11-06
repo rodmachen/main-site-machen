@@ -85,7 +85,7 @@ img {
 	// font-family: Times, serif;
 	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
 	margin-bottom: -30px;
-	// vertical-align: center;
+	// vertical-align: center;	
 }
 
 .sub-head {
@@ -104,6 +104,44 @@ img {
 }
 
 .thumb {
-	// position: relative;
 	// clip: (300px,300px,300px,300px);
 }
+
+.image-text {
+	position: relative; 
+   width: 100%;
+}
+
+.over-text  {
+	// position: relative;
+	text-align: center;
+	// margin: 0 auto;
+ //  	// top: 0; left: 0; bottom: 0; right: 0;
+ //  	// height: 200px
+ //  	// width: 100%;
+ //  	// top: 50%;
+ //  	left: 0;
+ //  	vertical-align: middle; 
+
+    color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 2.5em;
+	z-index: 9999;
+	position: absolute; 
+   top: 25%; 
+   left: 0; 
+   width: 100%; 
+}
+
+
+// .over-text:hover  {
+// 	position: absolute;
+// 	// top: 200;
+// 	text-align: center;
+//     color: white;
+// 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// 	font-weight: bold;
+// 	font-size: 3em;
+
+// }
