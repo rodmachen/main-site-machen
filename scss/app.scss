@@ -114,14 +114,13 @@ img {
 
 .over-text  {
 	text-align: center;
-
     color: white;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 2.5em;
 	z-index: 9999;
 	position: absolute; 
-   top: 25%; 
+   top: 33%; 
    left: 0; 
    width: 100%; 
 }
@@ -132,6 +131,7 @@ img {
 	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
 	// font-weight: bold;
 	font-size: 2rem;
+	font-style: underline;
 }
 .top-bar-section .writer {
 	font-family: Courier,"Courier New","Lucida Sans Typewriter","Lucida Typewriter",monospace;
@@ -139,12 +139,12 @@ img {
 	// font-size: 1.825rem;
 }
 .top-bar-section .coder {
-	font-family: "Andale Mono",AndaleMono,monospace;
+	font-family: monaco,Consolas,"Lucida Console",monospace;
 	font-weight: bold;
 
 }
 .top-bar-section .photographer {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	// font-weight: bold;
+	font-weight: bold;
 }
 
