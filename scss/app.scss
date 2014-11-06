@@ -113,15 +113,7 @@ img {
 }
 
 .over-text  {
-	// position: relative;
 	text-align: center;
-	// margin: 0 auto;
- //  	// top: 0; left: 0; bottom: 0; right: 0;
- //  	// height: 200px
- //  	// width: 100%;
- //  	// top: 50%;
- //  	left: 0;
- //  	vertical-align: middle; 
 
     color: white;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -134,14 +126,25 @@ img {
    width: 100%; 
 }
 
-
 // .over-text:hover  {
-// 	position: absolute;
-// 	// top: 200;
-// 	text-align: center;
-//     color: white;
-// 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-// 	font-weight: bold;
-// 	font-size: 3em;
-
 // }
+.top-bar-section .name {
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+	// font-weight: bold;
+	font-size: 2rem;
+}
+.top-bar-section .writer {
+	font-family: Courier,"Courier New","Lucida Sans Typewriter","Lucida Typewriter",monospace;
+	// font-weight: bold;
+	// font-size: 1.825rem;
+}
+.top-bar-section .coder {
+	font-family: "Andale Mono",AndaleMono,monospace;
+	font-weight: bold;
+
+}
+.top-bar-section .photographer {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	// font-weight: bold;
+}
+
