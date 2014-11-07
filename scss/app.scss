@@ -136,7 +136,7 @@ img {
 .top-bar-section .writer {
 	font-family: Courier,"Courier New","Lucida Sans Typewriter","Lucida Typewriter",monospace;
 	// font-weight: bold;
-	// font-size: 1.825rem;
+	font-size: 1.5rem;
 }
 .top-bar-section .coder {
 	font-family: monaco,Consolas,"Lucida Console",monospace;
@@ -148,3 +148,7 @@ img {
 	font-weight: bold;
 }
 
+.title-area {
+	padding-left: 30px;
+	padding-right: 30px;
+}
