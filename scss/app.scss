@@ -128,23 +128,23 @@ img {
 
 // .over-text:hover  {
 // }
-.top-bar-section .name {
+.top-bar-section .name, .name {
 	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
 	// font-weight: bold;
 	font-size: 2rem;
 	// font-style: underline;
 }
-.top-bar-section .writer {
+.top-bar-section .writer, .writer {
 	font-family: Courier,"Courier New","Lucida Sans Typewriter","Lucida Typewriter",monospace;
 	// font-weight: bold;
 	font-size: 1.4rem;
 }
-.top-bar-section .coder {
+.top-bar-section .coder, .coder {
 	font-family: Ubuntu,monaco,Consolas,"Lucida Console",monospace;
 	font-weight: bold;
 
 }
-.top-bar-section .photographer {
+.top-bar-section .photographer, .photographer {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 }
@@ -163,3 +163,12 @@ img {
 	margin-right: 30px;
 }
 
+footer {
+	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+	padding-top: 20px;
+	line-height: 0px;
+}
+
+// ul a footer {
+// 	font-size: 2rem;
+// }
