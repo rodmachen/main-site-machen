@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>write/learn/code</title>
+    <description>Rod Machen: writer, teacher, aspiring coder
+</description>
+    <link>http://rodmachen.github.io/</link>
+    <atom:link href="http://rodmachen.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 11 Nov 2014 17:48:32 -0600</pubDate>
+    <lastBuildDate>Tue, 11 Nov 2014 17:48:32 -0600</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>A New Jekyll Beginning</title>
+        <description>&lt;p&gt;After using Jekyll for this blog over the last month–having been introduced to it in my MakerSquare class–I’ve found a new way to use it: Prose.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://prose.io&quot;&gt;Prose&lt;/a&gt; is an online editor for use with Github. It’s especially good with Jekyll, and that’s how I’ll use using it. I was content to use my text editor and command line interface, but if this project is going to proceed into the future, the easier the better. When I’m at work, I have a laptop that isn’t set up with my development environment, and being able to create and alter posts online will be extremely useful. &lt;/p&gt;
+
+&lt;p&gt;Getting started with Prose wasn’t easy. Or at least, it wasn’t as easy as I thought it would be. As always, reading the directions helps. When I first logged in, I was able to go to my blog repo and create a post. However, it gave me problems when trying to publish. After doing a little research, I found out that I needed to have established some Prose settings in my config.yml file. There are a ton of options laid out &lt;a href=&quot;https://github.com/prose/prose/wiki/Prose-Configuration&quot;&gt;here&lt;/a&gt;. I designated which repo I always wanted to  start with and what layout I would use. The title had been formed by the file name, but I reversed that. I also set it to publish automatically unless I unchecked the appropriate box. &lt;/p&gt;
+
+&lt;p&gt;I now have an online editor that will let me create posts in markdown and commit them directly to my blog’s repo. Within a few seconds, they appear on the blog itself. Works for me.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 05 Nov 2014 00:00:00 -0600</pubDate>
+        <link>http://rodmachen.github.io/2014/11/05/a-new-jekyll-beginning.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/2014/11/05/a-new-jekyll-beginning.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Successful Reboot</title>
+        <description>&lt;p&gt;Today has been a bit of a rebound day for me. After hitting some pretty sizable bumps on the road to completing my MakerSquare final project, things are finally falling into place.&lt;/p&gt;
+
+&lt;p&gt;Where things stand: I have created a framework for my web presence. A main page (www.rodmachen.com) will link to a page for my writing (rodmachen.com/words), my coding/tech stuff (rodmachen.com/code), and my photography (rodmachen.com/photo). This project is focused on the later, but I realized during Monday’s class that I need a look that will tie all of them together. I’ve decided that thing is a navigation bar along the top, jet-black with menus for getting around. I’d like to find a common footer as well. Since I’m using Foundation as my base, I found a template to start off with and am working to modify it. I copied the nav bar to all of my pages and have been playing around with it quite a bit.&lt;/p&gt;
+
+&lt;p&gt;Bottom line: I have a placeholder main page, a working photography index, and a working gallery, complete with lightbox plugin. Not bad considering how things were looking the other day. &lt;/p&gt;
+
+&lt;p&gt;Thinking back on the problems: Sunday night my project broke. I had been running a local server and viewing all of my changes that way. Making a gh-pages branch on Github was the next step. The branch itself was easy enough, but something was wrong. All of my styling and JavaScript was missing. Turns out the .gitignore file included all of Foundation’s Bower components so none of that had been uploaded. An easy enough fix, right? Fast forward a couple of commits. Only a small part of this folder had been uploaded and the rest had virtually disappeared from my local repo. I had all of the Bower folders but none of the contents.&lt;/p&gt;
+
+&lt;p&gt;I gave up. My instructors would rescue me, and sure enough, between Mae and Flip, we rolled back my commits to the point where it was working again. At that point I was done with gh-pages and am using Amazon S3 to host. That worked like a charm. Updating is a bit of a pain, but my site is small enough that it’s fine. I’ll get some type of deployment scheme up and running eventually, but for this project, working is working. &lt;/p&gt;
+
+&lt;p&gt;Almost exactly one week from now, I’ll present my project. More that likely it’ll fall short of what I had originally intended, but because this is my real web site, I’ll continue to work on it going forward. &lt;/p&gt;
+
+&lt;p&gt;The takeway for me is this: Move forward incrementally. When I got to a place where I was trying to ingest too many different technologies at once, I got overwhelmed. I need to slow down and take the time to get comfortable with something before adding something else to my plate. Right now getting better at git and Foundation is enough. There are plenty of things to keep me busy after that, to be sure.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Nov 2014 00:00:00 -0600</pubDate>
+        <link>http://rodmachen.github.io/2014/11/04/a-successful-reboot.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/2014/11/04/a-successful-reboot.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Final Project Countdown</title>
+        <description>&lt;p&gt;I’m in the homestretch of my &lt;a href=&quot;http://www.makersquare.com&quot;&gt;MakerSquare&lt;/a&gt; class. We’re taking all of the front-end technologies we’ve learned and  putting them to use in self-selected final project.&lt;/p&gt;
+
+&lt;p&gt;From early on, redoing my web presence was a priority for me, and for this project, I’ve chosen to build a new photography portfolio site. My previous version uses Wordpress, but for this one, I wanted to move away from that platform. There’s no need for a back end of any kind, so a static site is perfect. &lt;/p&gt;
+
+&lt;p&gt;I thought I might marry Foundation to Jekyll. The latter’s templating functionality could be good for adding future pages, but I ran into some initial problems with setting up those templates. Honestly, I still don’t have enough of a grasp on Jekyll to be tweaking it, so instead of use my time on that, I’m going to go with a straight Foundation site. &lt;/p&gt;
+
+&lt;p&gt;The first big decision was picking a display format for the images. I never liked the lightbox plugin I used on WP, but I stumbled upon a better one recently, &lt;a href=&quot;http://terrymun.github.io/Fluidbox/&quot;&gt;Fluidbox&lt;/a&gt;. It replicates the imagefunctionality of Medium.com. A click on any embedded image brings up a full-sized version, front and center. I thought this is what I was going to go with, but it does fit well with my portfolio which is organized in galleries. There was no way to rotate through a set of images, just one at a time. Fluidbox would be great for other pages, and I might use it for my writing site.&lt;/p&gt;
+
+&lt;p&gt;This recent &lt;a href=&quot;http://codegeekz.com/jquery-lightbox-plugins-beautifying-websites/&quot;&gt;article&lt;/a&gt; lists 20 jQuery lightbox plugins, and it was here that I found &lt;a href=&quot;http://brutaldesign.github.io/swipebox/&quot;&gt;Swipebox&lt;/a&gt;. It’s distinguishing feature is the ability to swipe from images to image on a mobile device, but I like it because of its dead-simple interface. It blacks out the rest of the page, and the navigation arrows and caption fade away, leaving the viewer with a full-screen experience.&lt;/p&gt;
+
+&lt;p&gt;My extension project is to modify this plug in to offer additional functionality. I’m going to go through the code and see what I can do. This would give me a chance to test my JavaScript chops a bit. This’ll be my first time to fork a project on Github and start working under the hood. I hope to have a lot more of this in my future. &lt;/p&gt;
+
+&lt;p&gt;As of now, I have my main page set up with placeholder thumbs and one gallery made. I used FitText to make my Garamond heading nice and big. It’s minimal and sleek, pushing the viewer toward the images themselves. Tomorrow I’ll go back to class for some feedback and work time. A week and a half from now I’ll be presenting. Lots of work to do until this. &lt;/p&gt;
+</description>
+        <pubDate>Sun, 02 Nov 2014 00:00:00 -0500</pubDate>
+        <link>http://rodmachen.github.io/2014/11/02/the-final-project-countdown.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/2014/11/02/the-final-project-countdown.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>A Typical Day</title>
+        <description>&lt;p&gt;Today was the perfect day of coding. Completely typical for this enterprise. Typical in that I attempted to complete a task, ran into a bunch of obstacles, and had to keep plugging away. In other words, what I’ll spend half of my time doing as a professional developer. &lt;/p&gt;
+
+&lt;p&gt;I decided to experiment with adding an image slider to my Foundation test project. Orbit used to be the standard one, but it’s been depricated. Slides.js was suggested, and I gave it a go. The details really don’t matter, but it was a combination of things that led to my problems. What’s funny is, as I chased the error-rabbit, I found several things that were wrong. I’d fix one, thinking it was the problem, but there’d be another problem higher up the chain. Correctly spelling the path to an image is important, but so is making sure the correct CSS and JS files are being linked, even if they’re in different places than the documentation says they’ll be. I backed into a great debugging tool, the JavaScript console for telling me which files weren’t loading correctly. &lt;/p&gt;
+
+&lt;p&gt;It’s these experiences that will teach me the most. I know that. My patience-muscle must be exercised if I’m going to build it up for the long haul. I have to not give up because things will fall into place if I keep at it. Might take a while, but that’s the way these things go.&lt;/p&gt;
+
+&lt;p&gt;One more thing: I still don’t have a working slider. The errors are gone, but it’s not displaying correctly. On to another day.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://rodmachen.github.io/2014/10/19/a-typical-day.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/2014/10/19/a-typical-day.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Responsive Web Design and Foundation</title>
+        <description>&lt;p&gt;Tonight was the first time I have actually prepped for class. Usually, I’m lucky to show up with a working brain, but I had a little more time this weekend than usual.&lt;/p&gt;
+
+&lt;p&gt;Some of that prep was completing old homework. I knew we were starting on &lt;a href=&quot;http://foundation.zurb.com/&quot; title=&quot;Zurb Foundation&quot;&gt;Foundation&lt;/a&gt; tonight, so I figured I should finally finish my CSS grid assignment. I got stuck, but luckily Clare helped me out before class in finishing it up. Glad she did, because a lot of that came into play as the night went on.&lt;/p&gt;
+
+&lt;p&gt;Like any good obsessive, I spent a ton of time Googling information not only about Foundation, but also frameworks in general. I now know the name of a half dozen different ways to make a gridded web site. One in particular, &lt;a href=&quot;http://gumbyframework.com/&quot; title=&quot;Gumby&quot;&gt;Gumby&lt;/a&gt;, has me intrigued. I might have to play with it after class is over. For now, Foundation.&lt;/p&gt;
+
+&lt;p&gt;We started class by talking about responsive web design. I knew the basics, but it was good to hear the details of how to go about making such a site, especially the “mobile first” mantra. It gave me a lot to think about for my final project.&lt;/p&gt;
+
+&lt;p&gt;We then downloaded Foundation and got it set up. From there, we finished it out with work on the newspaper project. Easily the homework assignment I’m most looking forward to. I think I’ll have a good grasp of Foundation basics after this. &lt;/p&gt;
+
+&lt;p&gt;Mae didn’t want to go with the Sass version, and that’s probably best at this point. However, I know I’m going to learn it at some point. I’m convinced that I want to be proficient in building web sites, and using pre-existing tools is going to be a part of that. I don’t need to build from scratch when I can get 90% of the value out of these frameworks and libraries. Where I want to put my energy is into learning languages and programming fundamentals. This stuff is just to baseline of knowledge about front-end site creation. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://rodmachen.github.io/2014/10/13/rwd-and-foundation.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/2014/10/13/rwd-and-foundation.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Animal Project and Halfway Done</title>
+        <description>&lt;p&gt;Tonight was very much “hands on.” For most of the evening with worked in small groups trying so solve a series of problems.&lt;/p&gt;
+
+&lt;p&gt;We went through a project–involving dogs, cats, and monkeys–that used jQuery for sorting and other manipulations of the DOM. We also played with some plug-ins that do cool things with images. The main project was something that had been a part of the pre-work, so while it was familiar, I still had to start from scratch in solving the problems. That has happened to me before, and it’s always a learning experience. I don’t know any of this well enough to sit down and bust through it, even if I have done it before. Each time it gets easier, though, so there’s something to be said for repetition. &lt;/p&gt;
+
+&lt;p&gt;With the conclusion of tonight’s class, the front-end course if halfway finished. That’s got me thinking. In one way, time flew by. I’ve gotten to know several people in the class, and we’ve covered a decent bit of ground: basic HTML; CSS floats, grids, etc.; dev inspector; JavaScript fundamentals; jQuery selectors and methods; a little JSON; Jekyll and templating; and tons of git. I’m probably not alone in this, but I certainly haven’t finished every homework assignment–the CSS grid exercise comes to mind. I hope to put more outside time into the class from now till the end. &lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://rodmachen.github.io/2014/10/08/animals-half-way.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/2014/10/08/animals-half-way.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>The Walls Came Tumblin&#39; Down</title>
+        <description>&lt;p&gt;After last night’s snafu, I spent today reinstalling everything on my laptop. Everything. &lt;/p&gt;
+
+&lt;p&gt;I let the OS go overnight then spent this evening downloading the programs I use. Then I went back to the ‘Install Day’ page from class and go to work on the dev environment. I figure I’ll be doing this every time I get a new computer, so I better get used to it. I learned a lot more this time about the different pieces of the puzzle. I even ran into some snags, but worked through them. rvm didn’t want to load ruby, so I had to do a forced reinstall. Like everything else, the answers are a Google search away. Also, going to the web page of the different technologies helps. &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://jekyllrb.com/img/logo-2x.png&quot; alt=&quot;Jekyll&quot; title=&quot;Alchemy!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After that, I finally got to work with Jekyll. Last night, I saw Mae go through the set up and initialization of blog using Jekyll, but tonight, I got to work with it myself. Playing with a new toy is exciting. I know Jekyll isn’t the most complicated of web technologies, but learning to use it from scratch was still a blast. I hope every new technology starts off this way, and with all of the libraries and frameworks JavaScripts keeps spawning, I should have ample opportunity to find out.&lt;/p&gt;
+
+&lt;p&gt;I can update through github.com, too. &lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Oct 2014 00:00:00 -0500</pubDate>
+        <link>http://rodmachen.github.io/2014/10/06/walls-came-tumbling-down.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/2014/10/06/walls-came-tumbling-down.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Final Project Countdown</title>
+    <meta name="description" content="Rod Machen: writer, teacher, aspiring coder
+">
+    <link rel="stylesheet" href="/css/app.css">
+    <!-- <link rel="stylesheet" href="/css/main.css"> -->
+    <link rel="canonical" href="http://rodmachen.github.io/2014/11/02/the-final-project-countdown.html">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<div class="contain-to-grid">
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1>
+              <a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/">
+                <span class="logo">M</span>
+              </a>
+            </h1>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="left">
+            <li class="has-dropdown">
+              <a  href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/">Rod Machen</a>
+              <ul class="dropdown">
+              </ul>
+            </li>
+          </ul>
+          <ul class="right">
+            <li class="has-dropdown">
+              <a class="writer" href="http://words.rodmachen.com" target="_blank">writer</a>
+              <ul class="dropdown">
+                <li class="divider"></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a class="coder" href="http://rodmachen.github.io" target="_blank">coder</a>
+              <ul class="dropdown">
+                <li class="divider"></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a class="photographer" href="photo/index.html">photographer</a>
+              <ul class="dropdown">
+                <li class="divider"></li>
+                <li class="has-dropdown"><a href="#">Theatre</a></li>
+              <ul class="dropdown">
+                <li><a href="photo/theatre/shadowlands.html">Shadowlands</a></li>
+              </ul>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Places</a></li>
+                </ul>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+
+</header>
+
+
+    <div class="page-content row">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">The Final Project Countdown</h1>
+    <p class="post-meta">11/02/2014</p>
+  </header>
+
+  <article class="post-content">
+    <p>I’m in the homestretch of my <a href="http://www.makersquare.com">MakerSquare</a> class. We’re taking all of the front-end technologies we’ve learned and  putting them to use in self-selected final project.</p>
+
+<p>From early on, redoing my web presence was a priority for me, and for this project, I’ve chosen to build a new photography portfolio site. My previous version uses Wordpress, but for this one, I wanted to move away from that platform. There’s no need for a back end of any kind, so a static site is perfect. </p>
+
+<p>I thought I might marry Foundation to Jekyll. The latter’s templating functionality could be good for adding future pages, but I ran into some initial problems with setting up those templates. Honestly, I still don’t have enough of a grasp on Jekyll to be tweaking it, so instead of use my time on that, I’m going to go with a straight Foundation site. </p>
+
+<p>The first big decision was picking a display format for the images. I never liked the lightbox plugin I used on WP, but I stumbled upon a better one recently, <a href="http://terrymun.github.io/Fluidbox/">Fluidbox</a>. It replicates the imagefunctionality of Medium.com. A click on any embedded image brings up a full-sized version, front and center. I thought this is what I was going to go with, but it does fit well with my portfolio which is organized in galleries. There was no way to rotate through a set of images, just one at a time. Fluidbox would be great for other pages, and I might use it for my writing site.</p>
+
+<p>This recent <a href="http://codegeekz.com/jquery-lightbox-plugins-beautifying-websites/">article</a> lists 20 jQuery lightbox plugins, and it was here that I found <a href="http://brutaldesign.github.io/swipebox/">Swipebox</a>. It’s distinguishing feature is the ability to swipe from images to image on a mobile device, but I like it because of its dead-simple interface. It blacks out the rest of the page, and the navigation arrows and caption fade away, leaving the viewer with a full-screen experience.</p>
+
+<p>My extension project is to modify this plug in to offer additional functionality. I’m going to go through the code and see what I can do. This would give me a chance to test my JavaScript chops a bit. This’ll be my first time to fork a project on Github and start working under the hood. I hope to have a lot more of this in my future. </p>
+
+<p>As of now, I have my main page set up with placeholder thumbs and one gallery made. I used FitText to make my Garamond heading nice and big. It’s minimal and sleek, pushing the viewer toward the images themselves. Tomorrow I’ll go back to class for some feedback and work time. A week and a half from now I’ll be presenting. Lots of work to do until this. </p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+      <footer class="row">
+      <hr/>  
+    <div class="medium-12 columns">
+      <div class="row">
+        <div class="small-4 medium-4 columns">
+          <ul class="inline-list left">
+            <li><a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/"><h3>© 2014 Rod Machen</h3></a></li>
+            <!-- <li>>Rod Machen</a></li> -->
+          </ul>
+        </div>
+        <div class="small-4 medium-8 columns">
+          <ul class="inline-list right">
+            <!-- <li><a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/"></a></li> -->
+            <!-- <li></li> -->
+            <li><a class="writer" href="#"><h3>writer</h3></a></li>
+            <li><a class="coder" href="#"><h3>coder</a></h3></li>
+            <li><a class="photographer" href="photo/index.html"><h3>photographer</h3></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/FitText.js/jquery.fittext.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>

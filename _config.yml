@@ -1,0 +1,62 @@
+# Site settings
+title: write/learn/code
+email: mail @ rodmachen.com
+description: > # this means to ignore newlines until "baseurl:"
+  Rod Machen: writer, teacher, aspiring coder
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://rodmachen.github.io" # the base hostname & protocol for your site
+twitter_username: rod_machen
+github_username:  rodmachen
+
+# Build settings
+markdown: kramdown
+
+exclude: [node_modules]
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://rodmachen.github.io/'
+  relativeLinks: 'http://rodmachen.github.io/links.jsonp'
+  media: 'media'
+  ignore:
+    - index.md
+    - /node_modules
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Learning to Code"
+              value: "learning-to-code"
+            - name: "Tek-nah-low-gee"
+              value: "technology"
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "false"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "A awesome Headline!"
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Permalink"
+          value: ""

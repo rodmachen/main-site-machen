@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Successful Reboot</title>
+    <meta name="description" content="Rod Machen: writer, teacher, aspiring coder
+">
+    <link rel="stylesheet" href="/css/app.css">
+    <!-- <link rel="stylesheet" href="/css/main.css"> -->
+    <link rel="canonical" href="http://rodmachen.github.io/2014/11/04/a-successful-reboot.html">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<div class="contain-to-grid">
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+          <li class="name">
+            <h1>
+              <a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/">
+                <span class="logo">M</span>
+              </a>
+            </h1>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="left">
+            <li class="has-dropdown">
+              <a  href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/">Rod Machen</a>
+              <ul class="dropdown">
+              </ul>
+            </li>
+          </ul>
+          <ul class="right">
+            <li class="has-dropdown">
+              <a class="writer" href="http://words.rodmachen.com" target="_blank">writer</a>
+              <ul class="dropdown">
+                <li class="divider"></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a class="coder" href="http://rodmachen.github.io" target="_blank">coder</a>
+              <ul class="dropdown">
+                <li class="divider"></li>
+              </ul>
+            </li>
+            <li class="has-dropdown">
+              <a class="photographer" href="photo/index.html">photographer</a>
+              <ul class="dropdown">
+                <li class="divider"></li>
+                <li class="has-dropdown"><a href="#">Theatre</a></li>
+              <ul class="dropdown">
+                <li><a href="photo/theatre/shadowlands.html">Shadowlands</a></li>
+              </ul>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Places</a></li>
+                </ul>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+
+</header>
+
+
+    <div class="page-content row">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">A Successful Reboot</h1>
+    <p class="post-meta">11/04/2014</p>
+  </header>
+
+  <article class="post-content">
+    <p>Today has been a bit of a rebound day for me. After hitting some pretty sizable bumps on the road to completing my MakerSquare final project, things are finally falling into place.</p>
+
+<p>Where things stand: I have created a framework for my web presence. A main page (www.rodmachen.com) will link to a page for my writing (rodmachen.com/words), my coding/tech stuff (rodmachen.com/code), and my photography (rodmachen.com/photo). This project is focused on the later, but I realized during Monday’s class that I need a look that will tie all of them together. I’ve decided that thing is a navigation bar along the top, jet-black with menus for getting around. I’d like to find a common footer as well. Since I’m using Foundation as my base, I found a template to start off with and am working to modify it. I copied the nav bar to all of my pages and have been playing around with it quite a bit.</p>
+
+<p>Bottom line: I have a placeholder main page, a working photography index, and a working gallery, complete with lightbox plugin. Not bad considering how things were looking the other day. </p>
+
+<p>Thinking back on the problems: Sunday night my project broke. I had been running a local server and viewing all of my changes that way. Making a gh-pages branch on Github was the next step. The branch itself was easy enough, but something was wrong. All of my styling and JavaScript was missing. Turns out the .gitignore file included all of Foundation’s Bower components so none of that had been uploaded. An easy enough fix, right? Fast forward a couple of commits. Only a small part of this folder had been uploaded and the rest had virtually disappeared from my local repo. I had all of the Bower folders but none of the contents.</p>
+
+<p>I gave up. My instructors would rescue me, and sure enough, between Mae and Flip, we rolled back my commits to the point where it was working again. At that point I was done with gh-pages and am using Amazon S3 to host. That worked like a charm. Updating is a bit of a pain, but my site is small enough that it’s fine. I’ll get some type of deployment scheme up and running eventually, but for this project, working is working. </p>
+
+<p>Almost exactly one week from now, I’ll present my project. More that likely it’ll fall short of what I had originally intended, but because this is my real web site, I’ll continue to work on it going forward. </p>
+
+<p>The takeway for me is this: Move forward incrementally. When I got to a place where I was trying to ingest too many different technologies at once, I got overwhelmed. I need to slow down and take the time to get comfortable with something before adding something else to my plate. Right now getting better at git and Foundation is enough. There are plenty of things to keep me busy after that, to be sure.</p>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+      <footer class="row">
+      <hr/>  
+    <div class="medium-12 columns">
+      <div class="row">
+        <div class="small-4 medium-4 columns">
+          <ul class="inline-list left">
+            <li><a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/"><h3>© 2014 Rod Machen</h3></a></li>
+            <!-- <li>>Rod Machen</a></li> -->
+          </ul>
+        </div>
+        <div class="small-4 medium-8 columns">
+          <ul class="inline-list right">
+            <!-- <li><a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/"></a></li> -->
+            <!-- <li></li> -->
+            <li><a class="writer" href="#"><h3>writer</h3></a></li>
+            <li><a class="coder" href="#"><h3>coder</a></h3></li>
+            <li><a class="photographer" href="photo/index.html"><h3>photographer</h3></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="bower_components/FitText.js/jquery.fittext.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
