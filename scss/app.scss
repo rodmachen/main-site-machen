@@ -41,135 +41,135 @@
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
 
-.responsive_headline {
-	// font-weight: bold;
-	// margin-bottom: -5px;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	font-weight: bold;
-	// font-style: italic;
-}
-
-.sub_headline {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	// font-family: Georgia, serif;
-	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	// font-family: Arial, sans-serif;
-	// font-weight: bold;
-	// font-style: italic;
-	margin-bottom: 15px;
-}
-
-header {
-	text-align: center;
-	margin-bottom: 15px;
-}
-
-.columns {
-	// border: 1px solid black;
-	// margin-bottom: 33px;
-	margin: auto, 0px, 33px;
-}
-
-li {
-	// padding: 10px
-}
-
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo {
-	font-size: 90px;
-	// font-family: Times, serif;
-	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
-	margin-bottom: -30px;
-	// vertical-align: center;	
-}
-
-.sub-head {
-	font-size: 30px;
-	// font-family: Georgia, serif;
-	// vertical-align: center;
-	// float: margin-left
-}
-
-.category-thumb:hover {
-	opacity: .7;
-}
-
-.image-text.over-text:hover {
-	opacity: .7;
-
-}
-
-.thumb {
-	// clip: (300px,300px,300px,300px);
-}
-
-.image-text {
-	position: relative; 
-   width: 100%;
-   margin-bottom: 100px
-}
-
-.over-text  {
-	text-align: center;
-    color: white;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 2.6em;
-	z-index: 2;
-	position: absolute; 
-   top: 33%; 
-   left: 0; 
-   width: 100%; 
-
-}
-
-// .over-text:hover  {
-// }
-.top-bar-section .name, .name {
-	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
-	// font-weight: bold;
-	font-size: 2rem;
-	// font-style: underline;
-}
-.top-bar-section .writer, .writer {
-	font-family: Courier,"Courier New","Lucida Sans Typewriter","Lucida Typewriter",monospace;
-	// font-weight: bold;
-	font-size: 1.4rem;
-}
-.top-bar-section .coder, .coder {
-	font-family: 'PT Mono','Share Tech Mono',monaco,Consolas,"Lucida Console",monospace;
-	font-weight: bold;
-
-}
-.top-bar-section .photographer, .photographer, .dropdown.photographer {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: bold;
-}
-
-.title-area {
-	// padding-left: 10px;
-	padding-right: 10px;
-}
-
-// .top-bar-section { text-align: center; } 
-// .top-bar-section ul { display: inline-block; }
-
-.top-bar .toggle-topbar a {
-	font-size: 1.5rem;
-	margin-right: 30px;
-}
-
-// ul .has-dropdown {
-// 	font-size: 3rem;
+// .responsive_headline {
+// 	// font-weight: bold;
+// 	// margin-bottom: -5px;
+// 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// 	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+// 	font-weight: bold;
+// 	// font-style: italic;
 // }
 
-footer {
-	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
-	text-align: center;
-}
+// .sub_headline {
+// 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// 	// font-family: Georgia, serif;
+// 	// font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+// 	// font-family: Arial, sans-serif;
+// 	// font-weight: bold;
+// 	// font-style: italic;
+// 	margin-bottom: 15px;
+// }
+
+// header {
+// 	text-align: center;
+// 	margin-bottom: 15px;
+// }
+
+// .columns {
+// 	// border: 1px solid black;
+// 	// margin-bottom: 33px;
+// 	margin: auto, 0px, 33px;
+// }
+
+// li {
+// 	// padding: 10px
+// }
+
+// img {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+// .logo {
+// 	font-size: 90px;
+// 	// font-family: Times, serif;
+// 	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+// 	margin-bottom: -30px;
+// 	// vertical-align: center;	
+// }
+
+// .sub-head {
+// 	font-size: 30px;
+// 	// font-family: Georgia, serif;
+// 	// vertical-align: center;
+// 	// float: margin-left
+// }
+
+// .category-thumb:hover {
+// 	opacity: .7;
+// }
+
+// .image-text.over-text:hover {
+// 	opacity: .7;
+
+// }
+
+// .thumb {
+// 	// clip: (300px,300px,300px,300px);
+// }
+
+// .image-text {
+// 	position: relative; 
+//    width: 100%;
+//    margin-bottom: 100px
+// }
+
+// .over-text  {
+// 	text-align: center;
+//     color: white;
+// 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// 	font-weight: bold;
+// 	font-size: 2.6em;
+// 	z-index: 2;
+// 	position: absolute; 
+//    top: 33%; 
+//    left: 0; 
+//    width: 100%; 
+
+// }
+
+// // .over-text:hover  {
+// // }
+// .top-bar-section .name, .name {
+// 	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+// 	// font-weight: bold;
+// 	font-size: 2rem;
+// 	// font-style: underline;
+// }
+// .top-bar-section .writer, .writer {
+// 	font-family: Courier,"Courier New","Lucida Sans Typewriter","Lucida Typewriter",monospace;
+// 	// font-weight: bold;
+// 	font-size: 1.4rem;
+// }
+// .top-bar-section .coder, .coder {
+// 	font-family: 'PT Mono','Share Tech Mono',monaco,Consolas,"Lucida Console",monospace;
+// 	font-weight: bold;
+
+// }
+// .top-bar-section .photographer, .photographer, .dropdown.photographer {
+// 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// 	font-weight: bold;
+// }
+
+// .title-area {
+// 	// padding-left: 10px;
+// 	padding-right: 10px;
+// }
+
+// // .top-bar-section { text-align: center; } 
+// // .top-bar-section ul { display: inline-block; }
+
+// .top-bar .toggle-topbar a {
+// 	font-size: 1.5rem;
+// 	margin-right: 30px;
+// }
+
+// // ul .has-dropdown {
+// // 	font-size: 3rem;
+// // }
+
+// footer {
+// 	font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+// 	text-align: center;
+// }
