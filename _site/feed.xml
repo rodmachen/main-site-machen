@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>write/learn/code</title>
-    <description>Rod Machen: writer, teacher, aspiring coder
+    <title>Rod Machen</title>
+    <description>Rod Machen
 </description>
-    <link>http://rodmachen.github.io/</link>
-    <atom:link href="http://rodmachen.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Nov 2014 17:48:32 -0600</pubDate>
-    <lastBuildDate>Tue, 11 Nov 2014 17:48:32 -0600</lastBuildDate>
+    <link>http://rodmachen.github.io/code/</link>
+    <atom:link href="http://rodmachen.github.io/code/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 12 Nov 2014 09:45:28 -0600</pubDate>
+    <lastBuildDate>Wed, 12 Nov 2014 09:45:28 -0600</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -21,8 +21,8 @@
 &lt;p&gt;I now have an online editor that will let me create posts in markdown and commit them directly to my blog’s repo. Within a few seconds, they appear on the blog itself. Works for me.&lt;/p&gt;
 </description>
         <pubDate>Wed, 05 Nov 2014 00:00:00 -0600</pubDate>
-        <link>http://rodmachen.github.io/2014/11/05/a-new-jekyll-beginning.html</link>
-        <guid isPermaLink="true">http://rodmachen.github.io/2014/11/05/a-new-jekyll-beginning.html</guid>
+        <link>http://rodmachen.github.io/code/2014/11/05/a-new-jekyll-beginning.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/code/2014/11/05/a-new-jekyll-beginning.html</guid>
         
         
       </item>
@@ -44,8 +44,8 @@
 &lt;p&gt;The takeway for me is this: Move forward incrementally. When I got to a place where I was trying to ingest too many different technologies at once, I got overwhelmed. I need to slow down and take the time to get comfortable with something before adding something else to my plate. Right now getting better at git and Foundation is enough. There are plenty of things to keep me busy after that, to be sure.&lt;/p&gt;
 </description>
         <pubDate>Tue, 04 Nov 2014 00:00:00 -0600</pubDate>
-        <link>http://rodmachen.github.io/2014/11/04/a-successful-reboot.html</link>
-        <guid isPermaLink="true">http://rodmachen.github.io/2014/11/04/a-successful-reboot.html</guid>
+        <link>http://rodmachen.github.io/code/2014/11/04/a-successful-reboot.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/code/2014/11/04/a-successful-reboot.html</guid>
         
         
       </item>
@@ -67,8 +67,8 @@
 &lt;p&gt;As of now, I have my main page set up with placeholder thumbs and one gallery made. I used FitText to make my Garamond heading nice and big. It’s minimal and sleek, pushing the viewer toward the images themselves. Tomorrow I’ll go back to class for some feedback and work time. A week and a half from now I’ll be presenting. Lots of work to do until this. &lt;/p&gt;
 </description>
         <pubDate>Sun, 02 Nov 2014 00:00:00 -0500</pubDate>
-        <link>http://rodmachen.github.io/2014/11/02/the-final-project-countdown.html</link>
-        <guid isPermaLink="true">http://rodmachen.github.io/2014/11/02/the-final-project-countdown.html</guid>
+        <link>http://rodmachen.github.io/code/2014/11/02/the-final-project-countdown.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/code/2014/11/02/the-final-project-countdown.html</guid>
         
         
       </item>
@@ -84,8 +84,8 @@
 &lt;p&gt;One more thing: I still don’t have a working slider. The errors are gone, but it’s not displaying correctly. On to another day.&lt;/p&gt;
 </description>
         <pubDate>Sun, 19 Oct 2014 00:00:00 -0500</pubDate>
-        <link>http://rodmachen.github.io/2014/10/19/a-typical-day.html</link>
-        <guid isPermaLink="true">http://rodmachen.github.io/2014/10/19/a-typical-day.html</guid>
+        <link>http://rodmachen.github.io/code/2014/10/19/a-typical-day.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/code/2014/10/19/a-typical-day.html</guid>
         
         
       </item>
@@ -105,8 +105,8 @@
 &lt;p&gt;Mae didn’t want to go with the Sass version, and that’s probably best at this point. However, I know I’m going to learn it at some point. I’m convinced that I want to be proficient in building web sites, and using pre-existing tools is going to be a part of that. I don’t need to build from scratch when I can get 90% of the value out of these frameworks and libraries. Where I want to put my energy is into learning languages and programming fundamentals. This stuff is just to baseline of knowledge about front-end site creation. &lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Oct 2014 00:00:00 -0500</pubDate>
-        <link>http://rodmachen.github.io/2014/10/13/rwd-and-foundation.html</link>
-        <guid isPermaLink="true">http://rodmachen.github.io/2014/10/13/rwd-and-foundation.html</guid>
+        <link>http://rodmachen.github.io/code/2014/10/13/rwd-and-foundation.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/code/2014/10/13/rwd-and-foundation.html</guid>
         
         
       </item>
@@ -120,8 +120,8 @@
 &lt;p&gt;With the conclusion of tonight’s class, the front-end course if halfway finished. That’s got me thinking. In one way, time flew by. I’ve gotten to know several people in the class, and we’ve covered a decent bit of ground: basic HTML; CSS floats, grids, etc.; dev inspector; JavaScript fundamentals; jQuery selectors and methods; a little JSON; Jekyll and templating; and tons of git. I’m probably not alone in this, but I certainly haven’t finished every homework assignment–the CSS grid exercise comes to mind. I hope to put more outside time into the class from now till the end. &lt;/p&gt;
 </description>
         <pubDate>Wed, 08 Oct 2014 00:00:00 -0500</pubDate>
-        <link>http://rodmachen.github.io/2014/10/08/animals-half-way.html</link>
-        <guid isPermaLink="true">http://rodmachen.github.io/2014/10/08/animals-half-way.html</guid>
+        <link>http://rodmachen.github.io/code/2014/10/08/animals-half-way.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/code/2014/10/08/animals-half-way.html</guid>
         
         
       </item>
@@ -139,8 +139,8 @@
 &lt;p&gt;I can update through github.com, too. &lt;/p&gt;
 </description>
         <pubDate>Mon, 06 Oct 2014 00:00:00 -0500</pubDate>
-        <link>http://rodmachen.github.io/2014/10/06/walls-came-tumbling-down.html</link>
-        <guid isPermaLink="true">http://rodmachen.github.io/2014/10/06/walls-came-tumbling-down.html</guid>
+        <link>http://rodmachen.github.io/code/2014/10/06/walls-came-tumbling-down.html</link>
+        <guid isPermaLink="true">http://rodmachen.github.io/code/2014/10/06/walls-came-tumbling-down.html</guid>
         
         
       </item>
