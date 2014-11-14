@@ -13,15 +13,33 @@
   </head>
   <body>
 <style>
-  .panel {margin-top: 20px;
-    /*background-color: #300000*/
-  }
-  /*body {background-color: #000030;
-    color: #ffffff;}*/
-  /*footer ul {color: white;}*/
+.responsive_headline {
+  font-family: Baskerville,'EB Garamond', Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: -5px;
+}
   h2 {
+    /*font-family: Georgia;*/
     text-align: center;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    /*padding-bottom: 5px*/
+  }
+  img {border: solid black 1px;
+    margin: 15px auto;
+    /*margin: 10px*/
+  }
+  h2.writer {
+  font-family: Courier,"Courier New","Lucida Sans Typewriter","Lucida Typewriter",monospace;
+  font-size: 2.4rem;
+  }
+  h2.photographer {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2.3125rem
+  }
+  h2.coder {
+    font-size: 2.3125rem
   }
 </style>
 
@@ -31,7 +49,7 @@
            
           <li class="name">
             <h1>
-              <a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/">
+              <a href="http://rodmachen.com/">
                 <span class="logo">M</span>
               </a>
             </h1>
@@ -43,7 +61,7 @@
           <ul class="left">
             <!-- <li class="divider"></li> -->
             <li class="has-dropdown">
-              <a class="active name" href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/">Rod Machen</a>
+              <a class="active name" href="http://rodmachen.com/">Rod Machen</a>
               <ul class="dropdown">
                 <!-- <li><label>Section Name</label></li> -->
                 <!-- <li><a href="#">Dropdown Option</a></li> -->
@@ -56,7 +74,7 @@
           <ul class="right">
             <!-- <li class="divider"></li> -->
             <li class="has-dropdown">
-              <a class="writer" href="http://words.rodmachen.com" target="_blank">writer</a>
+              <a class="writer" href="http://www.austinchronicle.com/authors/rod-machen/" target="_blank">writer</a>
               <ul class="dropdown">
                 <!-- <li><a class="writer" href="http://words.rodmachen.com" target="_blank">The Writing Life</a></li> -->
                 <li class="divider"></li>
@@ -80,13 +98,13 @@
             </li>
             <!-- <li class="divider"></li> -->
             <li class="has-dropdown">
-              <a class="photographer" href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/photo/index.html">photographer</a>
+              <a class="photographer" href="http://rodmachen.com/photo/index.html">photographer</a>
               <ul class="dropdown">
                 <!-- <li class="divider"></li> -->
                 <li class="has-dropdown">
                   <a href="#">Theatre</a>
               <ul class="dropdown">
-                <li><a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/photo/theatre/shadowlands.html">Shadowlands</a></li>
+                <li><a href="http://rodmachen.com/photo/theatre/shadowlands.html">Shadowlands</a></li>
               </ul>
                 <li><a href="#">Music</a></li>
                 <li><a href="#">Places</a></li>
@@ -99,66 +117,39 @@
     </div>
  
 
-<!--   <div class="row">
-    <div class="medium-12 columns">
-     <img src="http://placehold.it/1000x300&text=[The Many Lives of Rod Machen]">
+  <header>
+    <div class=row>
+      <h1 class="responsive_headline">Rod Machen is a...</h1>
+      <!-- <h3 class="sub_headline">by Rod Machen</h1> -->
     </div>
-  </div> -->
+  </header>
 
 
 
   <div class="row">
     <div class="panel small 12 medium-4 columns">
-      <h2>The Writing Life</h2>
-      <img src="https://s3-us-west-2.amazonaws.com/images.rodmachen.com/misc/typewriter.jpg">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere dolor orci, in dignissim enim efficitur et. Etiam ipsum felis, aliquam ut nulla vitae, eleifend placerat nisi. Nullam aliquet lectus vel nisi mattis, ut maximus odio interdum. Integer at blandit lacus. Mauris porttitor rhoncus cursus. Pellentesque vulputate lobortis bibendum. Proin tempus mollis ultrices.</p>
+      <h2 class="writer"><a href="http://www.austinchronicle.com/authors/rod-machen/" target="_blank">writer</a></h2>
+      <img src="https://s3-us-west-2.amazonaws.com/images.rodmachen.com/misc/writer.jpg">
+      <p>
+        As a freelance writer for the Austin Chronicle, Rod writes about culture: culinary, literary, visual, and cinematic.
+      </p>
     </div>
     <div class="panel small 12 medium-4 columns">
-      <h2>The Coding Life</h2>
+      <h2 class="coder"><a href="http://rodmachen.github.io" target="_blank">coder</a></h2>
       <img src="https://s3-us-west-2.amazonaws.com/images.rodmachen.com/misc/matrix.jpg">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere dolor orci, in dignissim enim efficitur et. Etiam ipsum felis, aliquam ut nulla vitae, eleifend placerat nisi. Nullam aliquet lectus vel nisi mattis, ut maximus odio interdum. Integer at blandit lacus. Mauris porttitor rhoncus cursus. Pellentesque vulputate lobortis bibendum. Proin tempus mollis ultrices.</p>    </div>
+      <p>
+        Aspiring coder to be precise. Rod is learning to program, focusing on front-end web development and JavaScript.
+      </p>    
+    </div>
     <div class="panel small 12 medium-4 columns">
-      <h2>The Shooting Life</h2>
-      <img src="https://s3-us-west-2.amazonaws.com/images.rodmachen.com/misc/camera-squirrel.png">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque posuere dolor orci, in dignissim enim efficitur et. Etiam ipsum felis, aliquam ut nulla vitae, eleifend placerat nisi. Nullam aliquet lectus vel nisi mattis, ut maximus odio interdum. Integer at blandit lacus. Mauris porttitor rhoncus cursus. Pellentesque vulputate lobortis bibendum. Proin tempus mollis ultrices.</p>    </div>
+      <h2 class="photographer"><a href="http://rodmachen.com/photo/index.html">photographer</a></h2>
+      <img src="https://s3-us-west-2.amazonaws.com/images.rodmachen.com/misc/photography.jpg">
+      <p>
+        While be firmly planted in the amateur world, Rod has shot various theatre productions as well as events such as SXSW.
+      </p>    
+    </div>
   </div>
 
-
-
-
-
-
-   
- 
-    <!-- <div class="row">
-    <div class="medium-4 columns">
-      <img src="http://placehold.it/400x400&text=[writer]">
-    </div>    
-    <div class="medium-4 columns">
-      <img src="http://placehold.it/400x400&text=[coder]">
-    </div>    
-    <div class="medium-4 columns">
-      <img src="http://placehold.it/400x400&text=[photo]">
-    </div>    
-  </div>  
-
-
-  <div class="row">
-      <hr/>  
-    <div class="medium-3 columns">
-      <img src="http://placehold.it/400x200&text=[extra 1]">
-    </div>    
-    <div class="medium-3 columns">
-      <img src="http://placehold.it/400x200&text=[extra 2]">
-    </div>    
-    <div class="medium-3 columns">
-      <img src="http://placehold.it/400x200&text=[extra 3]">
-    </div>        
-    <div class="medium-3 columns">
-      <img src="http://placehold.it/400x200&text=[extra 4]">
-    </div>  
-  </div> -->
- 
    
   <footer class="row">
       <hr/>  
@@ -166,7 +157,7 @@
       <div class="row">
         <div class="small-4 medium-4 columns">
           <ul class="inline-list left">
-            <li><a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/">© 2014 Rod Machen</a></li>
+            <li><a href="http://rodmachen.com">© 2014 Rod Machen</a></li>
             <!-- <li>>Rod Machen</a></li> -->
           </ul>
         </div>
@@ -174,9 +165,9 @@
           <ul class="inline-list right">
             <!-- <li><a href="http://rodmachen.com.s3-website-us-west-2.amazonaws.com/"></a></li> -->
             <!-- <li></li> -->
-            <li><a class="writer" href="#">writer</a></li>
-            <li><a class="coder" href="#">coder</a></li>
-            <li><a class="photographer" href="photo/index.html">photographer</a></li>
+            <li><a class="writer" href="http://www.austinchronicle.com/authors/rod-machen/" target="_blank">writer</a></li>
+            <li><a class="coder" href="http://rodmachen.github.io" target="_blank">coder</a></li>
+            <li><a class="photographer" href="http://rodmachen.com/photo/index.html">photographer</a></li>
           </ul>
         </div>
       </div>
@@ -189,7 +180,7 @@
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="bower_components/FitText.js/jquery.fittext.js"></script>
     <script src="js/app.js"></script>
-    <script>$(".responsive_headline").fitText(.8);</script>
+    <script>$(".responsive_headline").fitText(.9);</script>
     <script src="bower_components/swipebox/src/js/jquery.swipebox.js"></script>
     <script type="text/javascript">
     ;( function( $ ) {
